@@ -1,0 +1,21 @@
+s = "Please refer to the madam to know the level of quiz"
+s = s + " "
+word1 = ""
+word2 = ""
+for (t of s)
+{
+  if(t!=" ")
+  {
+      word1 = t + word1
+      word2 = word2 + t
+  }
+  else
+  {
+    if( word1 == word2 )
+    {
+        console.log(word1)
+    }
+    word1 = ""
+    word2 = ""
+    }
+}
